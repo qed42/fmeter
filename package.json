@@ -1,9 +1,9 @@
 {
-  "name": "project-info-cli",
+  "name": "fmeter-cli",
   "version": "1.0.0",
   "description": "Get project Info though CLI ",
   "bin": {
-    "f-meter": "./bin/index.js"
+    "f-meter": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cli-color": "^1.4.0",
-    "cli-table": "^0.3.1",
-    "colors": "^1.3.3",
     "commander": "^2.20.0",
+    "fs-extra": "^8.1.0",
     "inquirer": "^6.3.1",
     "lighthouse": "^5.1.0"
   }
